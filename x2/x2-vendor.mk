@@ -159,7 +159,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/workspaceFile.qwsp:system/vendor/etc/acdbdata/MTP/workspaceFile.qwsp \
+	vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/letv/MTP_General_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/workspaceFile.qwsp:system/vendor/etc/acdbdata/MTP/letv/workspaceFile.qwsp \
     vendor/leeco/x2/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
     vendor/leeco/x2/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
     vendor/leeco/x2/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
@@ -182,6 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v2_seq.fw2:system/vendor/firmware/a530v2_seq.fw2 \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v3_gpmu.fw2:system/vendor/firmware/a530v3_gpmu.fw2 \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v3_seq.fw2:system/vendor/firmware/a530v3_seq.fw2 \
+	vendor/leeco/x2/proprietary/vendor/firmware/a540_gpmu.fw2:system/vendor/firmware/a540_gpmu.fw2 \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:system/vendor/lib/libSonyIMX230_lg_PdafLibrary.so \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:system/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so \
